@@ -1,0 +1,35 @@
+.card-opening { position: fixed; z-index: 50; inset: 0; overflow: hidden; background: #260614; display: grid; place-items: center; transition: visibility 1.2s step-end; }
+.invitation-opened .card-opening { visibility: hidden; pointer-events: none; }
+.curtain { position: absolute; inset: 0 auto 0 0; width: 50.5%; overflow: hidden; background: radial-gradient(circle at 35% 42%, #6e1438, #300616 63%); border: 1px solid rgba(231,184,82,.7); transition: transform 1.45s cubic-bezier(.77,0,.18,1); }
+.curtain:before { content: ''; position: absolute; inset: 16px; border: 1px solid rgba(221,172,66,.75); background: linear-gradient(135deg, transparent 47%, rgba(207,151,51,.18) 48%, transparent 49%); }
+.curtain:after { content: '❁'; color: #dcb458; position: absolute; font: 260px/1 var(--serif); opacity: .54; top: -62px; left: -64px; }
+.curtain-right { left: auto; right: 0; transform-origin: right; }
+.curtain-right:after { left: auto; right: -64px; transform: rotate(67deg); }
+.curtain span { position: absolute; bottom: 12%; right: 15%; color: #dcb458; font: 132px var(--serif); opacity: .55; }
+.curtain-right span { right: auto; left: 15%; }
+.curtain i { position: absolute; bottom: 30px; left: 30px; color: #dfb75d; font-style: normal; font-size: 36px; }
+.curtain-right i { left: auto; right: 30px; }
+.invitation-opened .curtain-left { transform: translateX(-103%) rotateY(16deg); }
+.invitation-opened .curtain-right { transform: translateX(103%) rotateY(-16deg); }
+.opening-note { position: relative; z-index: 2; text-align: center; color: #ffebc4; width: min(430px,86vw); transition: opacity .35s ease, transform .35s ease; }
+.invitation-opened .opening-note { opacity: 0; transform: scale(.95); }
+.opening-note p { color: #e4bd68; text-transform: uppercase; letter-spacing: 3px; font-size: 10px; }
+.wax-seal { margin: 24px auto 18px; width: 104px; height: 104px; border-radius: 50%; display: grid; place-content: center; background: radial-gradient(circle at 38% 32%,#9b2d43,#5b091f 72%); border: 4px double #e2b655; box-shadow: 0 8px 24px rgba(0,0,0,.38), inset 0 0 18px #390713; font: 29px var(--serif); letter-spacing: 2px; }
+.opening-note .wax-seal,
+.opening-note button:not(.wax-seal) { animation: synchronized-breathe 2.6s ease-in-out infinite; }
+.wax-seal b { display: block; color: #e0b85f; font-size: 14px; line-height: 5px; }
+.opening-note h1 { margin: 0; font: 58px/.8 var(--serif); letter-spacing: -2px; }
+.opening-note h1 em { display: block; margin: 9px 0 6px; color: #dcb458; font: 39px var(--script); }
+.opening-note button { margin: 30px auto 15px; min-width: 215px; padding: 14px 18px; background: #4b0c20; color: #f8d88b; border: 1px solid #e0b45c; box-shadow: inset 0 0 0 4px #4b0c20, inset 0 0 0 5px #bd8230; text-transform: uppercase; letter-spacing: 1.6px; font-size: 10px; transition: transform .25s ease, background .25s ease; }
+.opening-note button:hover { transform: translateY(-3px) scale(1.025); background: #6e1833; }
+.opening-note button span { padding-left: 12px; color: #e8c76f; }
+.opening-note small { display:block; text-transform: uppercase; letter-spacing: 2px; color:#ba8d43; font-size:8px; }
+@keyframes synchronized-breathe { 50% { transform: translateY(-3px) scale(1.04); } }
+.family { padding: 110px 30px; background: linear-gradient(135deg, #f9e9d0, #f2cfc0); color: #52152c; position:relative; overflow:hidden; }
+.family:before,.family:after { content:'❋'; position:absolute; color:#8e2e40; opacity:.14; font: 260px var(--serif); }
+.family:before { left:-70px; top:-115px; }.family:after { right:-70px; bottom:-135px; }
+.family-inner { max-width: 1040px; margin:auto; text-align:center; position:relative; z-index:1; }.family h2 { font: 500 clamp(45px,4.5vw,67px)/.9 var(--serif); margin:0; }.family h2 i { font-family:var(--script); color:#a85935; font-weight:400; }.family .ornament { margin:22px auto 42px; }
+.family-grid { display:grid; grid-template-columns:1fr 120px 1fr; align-items:center; gap:24px; }.family-grid>div:not(.family-heart) { min-height:185px; padding:30px 20px; border-top:1px solid rgba(124,55,41,.35); border-bottom:1px solid rgba(124,55,41,.35); }.family-grid h3 { margin:11px 0 9px; font: 40px/.9 var(--serif); font-weight:500; }.family-grid p { margin:0; font:16px/1.7 var(--serif); }.relationship { font: 10px !important; color:#9f5b32; text-transform:uppercase; letter-spacing:2px; }.family-heart { color:#8c2438; font:35px var(--serif); display:flex; flex-direction:column; gap:12px; align-items:center; }.family-heart span { color:#8b5c38; text-transform:uppercase; letter-spacing:1.4px; font:8px var(--sans); width:82px; }
+.closing-note { position:relative; overflow:hidden; text-align:center; padding:125px 30px; color:#ffeed4; background:radial-gradient(ellipse at center,#6f1639,#26030f 73%); }.closing-note:before,.closing-note:after { content:'✦'; position:absolute; color:#d6a64a; opacity:.6; animation: twinkle 2.8s infinite alternate; }.closing-note:before{left:15%;top:28%;font-size:32px}.closing-note:after{right:16%;bottom:25%;font-size:20px;animation-delay:1s}.closing-inner { position:relative; z-index:1; }.closing-note .section-label{color:#e4bd68}.closing-note h2{margin:0;font:500 clamp(42px,4.5vw,66px)/.9 var(--serif)}.closing-note h2 i{font-family:var(--script);font-weight:400;color:#e7bd62}.closing-note .ornament{margin:24px auto}.closing-note p:not(.section-label){font:15px var(--serif);color:#efd5a1}.closing-note small{display:block;margin-top:30px;text-transform:uppercase;letter-spacing:2px;font-size:9px;color:#dfbd7a}@keyframes twinkle{to{transform:scale(1.5) rotate(20deg);opacity:.2}}
+@media(max-width:780px){.family{padding:80px 25px}.family-grid{grid-template-columns:1fr;gap:20px}.family-heart{transform:rotate(90deg);height:35px}.family-heart span{display:none}.family-grid>div:not(.family-heart){min-height:auto}.family-grid h3{font-size:36px}.opening-note h1{font-size:49px}.curtain span{font-size:92px}.curtain:after{font-size:200px}.closing-note{padding:95px 25px}}
+@media(prefers-reduced-motion:reduce){.curtain,.card-opening,.opening-note{transition:none!important;animation:none!important}}

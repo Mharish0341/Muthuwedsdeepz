@@ -1,0 +1,22 @@
+/* Reuse the handwritten ampersand from the M&D header. */
+.names .ampersand {
+  align-self: center;
+  display: block;
+  width: auto;
+  height: auto;
+  margin: 8px 0 4px;
+  color: #f6d781;
+  font: 400 .52em/.72 var(--script);
+  letter-spacing: 0;
+  text-shadow: 0 1px 9px rgba(236, 188, 93, .24);
+}
+
+.opening-note h1 .ampersand {
+  display: block;
+  width: auto;
+  height: auto;
+  margin: 9px 0 6px;
+  color: #f1cf7a;
+  font: 400 39px/.8 var(--script);
+  letter-spacing: 0;
+}

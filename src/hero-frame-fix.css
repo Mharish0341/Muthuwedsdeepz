@@ -1,0 +1,33 @@
+/* Keep the illustrated couple clean: the old arch cut through the silhouette. */
+.arch { display: none; }
+.couple-frame::before {
+  content: '✦  ❋  ✦';
+  position: absolute;
+  z-index: 0;
+  bottom: 16px;
+  left: 50%;
+  width: 46%;
+  transform: translateX(-50%);
+  color: #d7a64a;
+  font: 18px/1 var(--serif);
+  letter-spacing: 22px;
+  text-align: center;
+  border-top: 1px solid rgba(215,166,74,.75);
+  padding-top: 11px;
+}
+.couple-frame::after {
+  content: '';
+  position: absolute;
+  z-index: 0;
+  bottom: 4px;
+  left: 22%;
+  right: 22%;
+  height: 60px;
+  background: radial-gradient(ellipse at center, rgba(0,0,0,.52), transparent 70%);
+  filter: blur(8px);
+}
+.couple { z-index: 1; }
+@media(max-width:780px) {
+  .couple-frame::before { bottom: 8px; width: 55%; font-size: 13px; letter-spacing: 13px; padding-top: 7px; }
+  .couple-frame::after { bottom: 0; height: 40px; }
+}

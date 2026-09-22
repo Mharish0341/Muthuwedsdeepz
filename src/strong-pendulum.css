@@ -1,0 +1,7 @@
+/* Make the suspended doodles visibly swing after the doors reveal the page. */
+.invitation-opened .floating-doodles span { display:block; animation:celebration-pendulum 5.6s cubic-bezier(.45,.05,.55,.95) infinite alternate; transform-origin:50% -130px; }
+.invitation-opened .floating-doodles span:before { content:''; position:absolute; z-index:-1; left:50%; bottom:calc(100% + 4px); width:1px; height:74px; background:linear-gradient(transparent,rgba(225,184,100,.72)); transform:translateX(-50%); }
+.invitation-opened .floating-doodles span:nth-child(2n){animation-direction:alternate-reverse;animation-duration:6.8s}.invitation-opened .floating-doodles span:nth-child(3n){animation-duration:7.6s}.invitation-opened .floating-doodles span:nth-child(4n):before{height:48px}
+@keyframes celebration-pendulum{0%{transform:translateX(-42px) rotate(-15deg)}100%{transform:translateX(42px) rotate(15deg)}}
+@media(max-width:780px){.invitation-opened .floating-doodles span{transform-origin:50% -72px;animation-duration:5.8s}.invitation-opened .floating-doodles span:before{height:46px}.invitation-opened .floating-doodles span:nth-child(4n):before{height:30px}@keyframes celebration-pendulum{0%{transform:translateX(-24px) rotate(-12deg)}100%{transform:translateX(24px) rotate(12deg)}}}
+@media(prefers-reduced-motion:reduce){.invitation-opened .floating-doodles span{animation:none}.invitation-opened .floating-doodles span:before{display:none}}

@@ -1,0 +1,36 @@
+.scroll-cue {
+  position: absolute;
+  z-index: 12;
+  bottom: 82px;
+  left: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 46px;
+  height: 46px;
+  border: 1px solid rgba(255, 250, 235, .7);
+  border-radius: 50%;
+  color: rgba(255, 252, 243, .96);
+  background: rgba(255, 244, 215, .18);
+  box-shadow: 0 4px 18px rgba(15, 0, 7, .38), 0 0 16px rgba(255, 226, 164, .22);
+  transform: translateX(-50%);
+  animation: scroll-cue-bounce 1.8s ease-in-out infinite;
+  pointer-events: none;
+}
+
+.scroll-cue svg { display: block; stroke-width: 1.8; }
+.scroll-cue svg + svg { margin-top: -12px; }
+
+@keyframes scroll-cue-bounce {
+  50% { transform: translateX(-50%) translateY(8px); opacity: .65; }
+}
+
+@media (max-width: 780px) {
+  .scroll-cue { bottom: 74px; width: 38px; height: 38px; }
+  .scroll-cue svg { width: 23px; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .scroll-cue { animation: none; }
+}

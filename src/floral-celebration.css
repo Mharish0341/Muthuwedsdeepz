@@ -1,0 +1,14 @@
+/* Floral and celebration-only motif family. */
+.south-doodles .flower { color:#d8a856; font-size:45px!important; text-shadow:0 2px 0 #682033; }
+.south-doodles .sparkle { color:#e4bf70; font-size:32px!important; }
+.south-doodles .heart { color:#b43f59; font-size:31px!important; text-shadow:0 2px 0 #5e1126; }
+.south-doodles .lamp:after { display:none; }
+.events:after { content:'✿  ♥  ✿'; color:#e0b460; }
+.venue:after { content:'❀'; color:#a65f36; }
+.closing-note:after { content:'✿'; color:#d9ad59; }
+/* Sculpted antique-brass handles are mounted at the meeting point of the two doors. */
+.door-handles { position:absolute; z-index:4; top:47%; left:50%; width:280px; height:80px; transform:translate(-50%,-50%); display:flex; justify-content:space-between; pointer-events:none; transition:opacity .2s ease; }
+.door-handles span { position:relative; display:block; width:31px; height:75px; border-radius:18px; background:linear-gradient(90deg,#4f2c13,#e2bc67 36%,#fff0aa 50%,#a8742d 68%,#4b2710); border:2px solid #e7c46f; box-shadow:inset 2px 0 3px rgba(255,241,163,.6), inset -4px 0 7px rgba(47,18,7,.7),0 4px 8px rgba(0,0,0,.42); }
+.door-handles span:before,.door-handles span:after { content:''; position:absolute; left:50%; transform:translateX(-50%); width:16px; height:16px; border-radius:50%; background:radial-gradient(circle at 35% 30%,#fff1ab,#8c5a1d 58%,#4d260e); border:1px solid #f3d47d; }
+.door-handles span:before{top:8px}.door-handles span:after{bottom:8px}.invitation-opened .door-handles{opacity:0;transition-delay:.1s}
+@media(max-width:780px){.south-doodles .flower{font-size:35px!important}.south-doodles .sparkle{font-size:25px!important}.south-doodles .heart{font-size:25px!important}.door-handles{transform:translate(-50%,-50%) scale(.76)}}

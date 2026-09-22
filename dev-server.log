@@ -1,0 +1,45 @@
+
+  VITE v8.2.2  ready in 250 ms
+
+  ➜  Local:   http://127.0.0.1:5173/
+  ➜  press h + enter to show help
+9:12:40 pm [vite] (client) page reload index.html
+9:13:24 pm [vite] (client) page reload index.html
+9:19:57 pm [vite] (client) page reload src/main.jsx
+9:27:20 pm [vite] (client) page reload src/main.jsx
+9:27:48 pm [vite] (client) page reload src/responsive-doodles.[ELIFECYCLE] Command failed with exit code 1073807364.
+
+9:31:47 pm [vite] (client) page reload src/main.jsx
+9:32:27 pm [vite] (client) page reload src/royal-door-music.css
+9:34:02 pm [vite] (client) page reload src/main.jsx
+9:35:03 pm [vite] (client) page reload src/main.jsx
+9:36:46 pm [vite] (client) page reload src/main.jsx
+9:37:13 pm [vite] (client) page reload src/antique-doodles.css
+9:37:39 pm [vite] (client) page reload src/main.jsx
+9:39:19 pm [vite] (client) page reload src/main.jsx
+9:39:41 pm [vite] (client) page reload src/main.jsx
+9:40:03 pm [vite] (client) page reload src/south-indian-doodles.css
+9:42:09 pm [vite] (client) page reload src/main.jsx
+9:42:40 pm [vite] (client) page reload src/main.jsx
+9:43:37 pm [vite] (client) hmr update /src/floral-celebration.css
+9:45:21 pm [vite] (client) page reload src/main.jsx
+9:45:43 pm [vite] (client) page reload src/door-doodle-border.css
+9:46:21 pm [vite] (client) page reload src/main.jsx
+9:48:43 pm [vite] (client) page reload src/main.jsx
+9:52:02 pm [vite] (client) page reload src/main.jsx
+9:54:13 pm [vite] (client) page reload src/main.jsx
+9:54:59 pm [vite] (client) page reload src/main.jsx
+9:56:53 pm [vite] (client) page reload src/main.jsx
+10:01:52 pm [vite] (client) page reload src/main.jsx
+10:01:54 pm [vite] (client) hmr update /src/always-sway.css
+10:09:04 pm [vite] (client) page reload src/main.jsx
+10:09:07 pm [vite] (client) hmr update /src/hero-image-cleanup.css
+10:10:08 pm [vite] (client) page reload src/main.jsx
+10:10:11 pm [vite] (client) page reload src/doodle-hover-reverse.css
+10:13:35 pm [vite] (client) page reload src/main.jsx
+10:13:48 pm [vite] (client) page reload src/main.jsx
+10:14:36 pm [vite] (client) hmr update /src/celebration-burst.css
+10:15:07 pm [vite] (client) hmr update /src/celebration-burst.css
+10:16:18 pm [vite] (client) hmr update /src/celebration-burst.css
+10:18:55 pm [vite] (client) page reload src/main.jsx
+10:18:57 pm [vite] (client) page reload src/site-footer.css

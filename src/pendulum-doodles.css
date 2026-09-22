@@ -1,0 +1,6 @@
+/* Slow, alternating side-to-side sway for the floating celebration motifs. */
+.floating-doodles span { transform-origin:50% -110px; animation:pendulum-sway 7.5s cubic-bezier(.45,.05,.55,.95) infinite alternate; }
+.floating-doodles span:nth-child(2n) { animation-direction:alternate-reverse; animation-duration:8.8s; }
+.floating-doodles span:nth-child(3n) { animation-duration:10.2s; }
+@keyframes pendulum-sway { 0% { transform:translateX(-15px) rotate(-9deg); } 100% { transform:translateX(15px) rotate(9deg); } }
+@media(max-width:780px){.floating-doodles span{transform-origin:50% -65px;animation-duration:8.8s}}@media(prefers-reduced-motion:reduce){.floating-doodles span{animation:none}}

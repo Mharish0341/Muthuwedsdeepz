@@ -1,0 +1,14 @@
+/* South Indian wedding motifs: lotus, kolam geometry, mango leaves and kuthuvilakku-inspired lamps. */
+.south-doodles .lotus { color:#d9a856; text-shadow:0 2px 0 #682033; font-size:44px!important; }
+.south-doodles .kolam { color:#e0bb70; font-weight:400; transform:rotate(45deg); font-size:38px!important; }
+.south-doodles .mango { color:#b97936; transform:rotate(-28deg); font-size:45px!important; }
+.south-doodles .lamp { color:#d4a24d; font-size:33px!important; text-shadow:0 0 10px rgba(250,202,93,.48); }
+.south-doodles .lamp:after { content:'•'; display:block; margin-top:-23px; color:#ffd883; font-size:21px; animation:lamp-flame 1.6s ease-in-out infinite alternate; }
+.curtain:after { content:'✿'; color:#d5a656; }
+.curtain:before { background-image: radial-gradient(circle at 50% 10%,rgba(255,225,150,.18),transparent 26%), linear-gradient(45deg,transparent 47%,rgba(235,183,91,.13) 48% 52%,transparent 53%),linear-gradient(-45deg,transparent 47%,rgba(235,183,91,.13) 48% 52%,transparent 53%); background-size:auto,48px 48px,48px 48px; }
+.events:after { content:'◇  ✿  ◇'; font-family:Georgia,serif; color:#d8ab56; font-size:34px; }
+.venue:after { content:'❧'; color:#a65f36; }
+.closing-note:after { content:'✿'; color:#d9ad59; }
+@keyframes lamp-flame{to{transform:scale(1.25,.75) translateY(-2px);opacity:.7}}
+@media(max-width:780px){.south-doodles .lotus{font-size:34px!important}.south-doodles .kolam{font-size:29px!important}.south-doodles .mango{font-size:35px!important}.south-doodles .lamp{font-size:27px!important}}
+@media(prefers-reduced-motion:reduce){.south-doodles .lamp:after{animation:none}}

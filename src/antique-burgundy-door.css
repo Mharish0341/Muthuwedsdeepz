@@ -1,0 +1,10 @@
+/* Burgundy patina replaces the bright gold panels while retaining antique brass details. */
+.card-opening { background: radial-gradient(circle at 50% 48%, #8f2546, #21040f 66%); }
+.curtain { background: linear-gradient(105deg, #1b060f 0%, #551227 13%, #8f2845 29%, #3a0919 45%, #701d36 61%, #260713 81%, #6b1b33 100%); border-color: #b88945; box-shadow: inset -25px 0 38px rgba(0,0,0,.62), inset 8px 0 16px rgba(238,179,96,.16); }
+.curtain-right { background: linear-gradient(255deg, #1b060f 0%, #551227 13%, #8f2845 29%, #3a0919 45%, #701d36 61%, #260713 81%, #6b1b33 100%); }
+.curtain:before { border-color: rgba(193,144,72,.85); background: repeating-linear-gradient(0deg,transparent 0 23%,rgba(236,187,103,.1) 23.5% 24%,transparent 24.5% 49%),repeating-linear-gradient(90deg,transparent 0 44%,rgba(236,187,103,.1) 44.5% 45%,transparent 45.5% 100%); }
+.curtain:after { color: #d4a555; text-shadow: 0 3px 0 #4a181d, 0 0 18px #16040a; }
+.curtain span { color: #d9a853; text-shadow: 0 3px 0 #49151d; }
+.wax-seal { background: radial-gradient(circle at 35% 28%, #a85757, #701a31 42%, #30101a 76%); border-color: #d8ad65; box-shadow: 0 8px 24px #080303, inset 0 0 0 5px #5d241f, inset 0 0 16px #20070d; }
+.opening-note button { background: linear-gradient(120deg,#4d0d20,#86233d,#4a0c1e); border-color:#d3a258; box-shadow:0 5px 0 #24070e,inset 0 0 0 4px rgba(66,11,24,.76),inset 0 0 0 5px #bd8542; }
+.opening-note button:hover { background:linear-gradient(120deg,#68132a,#a23954,#6a132c); }

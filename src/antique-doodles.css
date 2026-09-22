@@ -1,0 +1,12 @@
+/* A restrained family of antique botanical and brass flourishes. */
+.floating-doodles span { color:#c3954c; opacity:.42; font-family:Georgia,serif; filter:drop-shadow(0 2px 2px rgba(45,3,17,.22)); animation-duration:10s; }
+.floating-doodles span:nth-child(1){left:3vw;top:19vh;font-size:37px}.floating-doodles span:nth-child(2){right:5vw;top:24vh;font-size:28px}.floating-doodles span:nth-child(3){left:7vw;bottom:13vh;font-size:34px}.floating-doodles span:nth-child(4){right:9vw;bottom:24vh;font-size:24px}.floating-doodles span:nth-child(5){left:49%;top:11vh;font-size:25px}.floating-doodles span:nth-child(6){left:58%;bottom:10vh;font-size:40px}.floating-doodles span:nth-child(7){right:28%;bottom:8vh;font-size:21px;animation-delay:-7s}.floating-doodles span:nth-child(8){left:23%;top:57vh;font-size:27px;animation-delay:-5s}.floating-doodles span:nth-child(9){right:18%;top:67vh;font-size:18px;animation-delay:-3s}.floating-doodles span:nth-child(10){left:40%;bottom:21vh;font-size:20px;animation-delay:-6s}
+.curtain:before { background-image: radial-gradient(ellipse at 50% 10%,rgba(255,225,150,.18),transparent 26%), repeating-linear-gradient(0deg,transparent 0 23%,rgba(236,187,103,.1) 23.5% 24%,transparent 24.5% 49%),repeating-linear-gradient(90deg,transparent 0 44%,rgba(236,187,103,.1) 44.5% 45%,transparent 45.5% 100%); }
+.curtain:after { content:'⚜'; }
+.events:after,.venue:after,.closing-note:after { pointer-events:none; }
+.events:after { content:'❧   ✥   ❧'; position:absolute; right:6vw; bottom:24px; color:#d5a94f; opacity:.52; letter-spacing:14px; font:28px Georgia,serif; animation:antique-sway 5s ease-in-out infinite alternate; }
+.venue:after { content:'❦'; position:absolute; bottom:38px; right:7vw; color:#a6643a; opacity:.35; font:90px Georgia,serif; animation:antique-sway 6s ease-in-out infinite alternate; }
+.closing-note:after { content:'⚜'; right:13%; bottom:20%; font:45px Georgia,serif; animation:antique-sway 4s ease-in-out infinite alternate; }
+@keyframes antique-sway{to{transform:translateY(-12px) rotate(9deg);opacity:.25}}
+@media(max-width:780px){.floating-doodles span:nth-child(7),.floating-doodles span:nth-child(8),.floating-doodles span:nth-child(9),.floating-doodles span:nth-child(10){display:none}.events:after{font-size:19px;right:5vw;letter-spacing:8px}.venue:after{font-size:60px;bottom:16px}.closing-note:after{font-size:31px}}
+@media(prefers-reduced-motion:reduce){.events:after,.venue:after,.closing-note:after{animation:none}}

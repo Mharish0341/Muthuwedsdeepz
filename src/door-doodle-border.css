@@ -1,0 +1,10 @@
+/* Dense but text-safe floral celebration border, positioned only on the outer door edges. */
+.door-handles { display:none!important; }
+.curtain>span,.curtain:after { display:none; }
+.door-doodles { position:absolute; z-index:3; top:54px; bottom:46px; width:88px; display:grid; grid-template-columns:1fr 1fr; align-content:space-between; justify-items:center; pointer-events:none; }
+.curtain-left .door-doodles { left:16px; }.curtain-right .door-doodles { right:16px; }
+.door-doodles b { color:#dfb65d; font:20px Georgia,serif; line-height:1; text-shadow:0 2px 0 #642032,0 0 8px rgba(240,191,86,.24); opacity:.8; animation:door-petal-float 4s ease-in-out infinite alternate; }
+.door-doodles b:nth-child(3n){font-size:25px;color:#d79954}.door-doodles b:nth-child(4n){color:#bc5060;font-size:16px}.door-doodles b:nth-child(even){animation-delay:-2s}
+@keyframes door-petal-float{to{transform:translateY(-6px) rotate(12deg);opacity:.48}}
+@media(max-width:780px){.door-doodles{top:45px;bottom:38px;width:54px}.curtain-left .door-doodles{left:9px}.curtain-right .door-doodles{right:9px}.door-doodles b{font-size:13px}.door-doodles b:nth-child(3n){font-size:17px}.door-doodles b:nth-child(4n){font-size:11px}}
+@media(prefers-reduced-motion:reduce){.door-doodles b{animation:none}}

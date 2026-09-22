@@ -1,0 +1,10 @@
+.welcome-copy-only {
+  display: flex;
+  min-height: 450px;
+  justify-content: center;
+  padding-inline: 30px;
+}
+
+.welcome-copy-only .welcome-copy { text-align: center; }
+.welcome-copy-only .ornament { margin-inline: auto; }
+.welcome-copy-only .welcome-copy > p:not(.section-label):not(.script) { margin-inline: auto; }

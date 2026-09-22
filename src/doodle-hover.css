@@ -1,0 +1,5 @@
+.floating-doodles span { pointer-events:auto; cursor:default; transition:filter .18s ease,color .18s ease; }
+.floating-doodles span:hover { animation-play-state:paused!important; transform:scale(1.75) rotate(20deg)!important; color:#ffe19a!important; filter:drop-shadow(0 0 10px rgba(255,209,103,.95))!important; }
+.floating-doodles span:hover:after { content:'✦'; position:absolute; top:-15px; right:-15px; color:#ffe69e; font:17px Georgia,serif; animation:hover-spark .65s ease-out infinite alternate; }
+@keyframes hover-spark { from { transform:scale(.5) rotate(0deg); opacity:.3; } to { transform:scale(1.2) rotate(35deg); opacity:1; } }
+@media(prefers-reduced-motion:reduce){.floating-doodles span:hover:after{animation:none}}

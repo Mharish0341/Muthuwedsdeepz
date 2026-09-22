@@ -1,0 +1,4 @@
+/* Hover turns the gentle pendulum into a fast, playful opposite-direction flutter. */
+.floating-doodles span:hover { animation:hover-flutter .42s ease-in-out infinite alternate!important; transform-origin:50% -50px; color:#ffe19a!important; filter:drop-shadow(0 0 10px rgba(255,209,103,.95))!important; }
+@keyframes hover-flutter { from { transform:translateX(18px) rotate(20deg) scale(1.42); } to { transform:translateX(-18px) rotate(-20deg) scale(1.42); } }
+@media(prefers-reduced-motion:reduce){.floating-doodles span:hover{animation:none!important;transform:scale(1.42)!important}}

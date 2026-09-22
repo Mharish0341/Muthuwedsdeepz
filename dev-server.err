@@ -1,0 +1,210 @@
+9:27:20 pm [vite] Internal server error: Failed to resolve import "./responsive-doodles.css" from "src/main.jsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: C:/Users/muthu/Downloads/MOCK/src/main.jsx:8:7
+  6  |  import "./content-update.css";
+  7  |  import "./card-opening.css";
+  8  |  import "./responsive-doodles.css";
+     |          ^
+  9  |  var _jsxFileName = "C:/Users/muthu/Downloads/MOCK/src/main.jsx";
+  10 |  import { jsxDEV as _jsxDEV } from "react/jsx-dev-runtime";
+      at TransformPluginContext._formatLog (file:///C:/Users/muthu/Downloads/MOCK/node_modules/.pnpm/vite@8.2.2/node_modules/vite/dist/node/chunks/node.js:31147:39)
+      at TransformPluginContext.error (file:///C:/Users/muthu/Downloads/MOCK/node_modules/.pnpm/vite@8.2.2/node_modules/vite/dist/node/chunks/node.js:31144:14)
+      at normalizeUrl (file:///C:/Users/muthu/Downloads/MOCK/node_modules/.pnpm/vite@8.2.2/node_modules/vite/dist/node/chunks/node.js:28083:18)
+      at async file:///C:/Users/muthu/Downloads/MOCK/node_modules/.pnpm/vite@8.2.2/node_modules/vite/dist/node/chunks/node.js:28153:30
+      at async Promise.all (index 7)
+      at async TransformPluginContext.transform (file:///C:/Users/muthu/Downloads/MOCK/node_modules/.pnpm/vite@8.2.2/node_modules/vite/dist/node/chunks/node.js:28119:4)
+      at async EnvironmentPluginContainer.transform (file:///C:/Users/muthu/Downloads/MOCK/node_modules/.pnpm/vite@8.2.2/node_modules/vite/dist/node/chunks/node.js:30932:14)
+      at async loadAndTransform (file:///C:/Users/muthu/Downloads/MOCK/node_modules/.pnpm/vite@8.2.2/node_modules/vite/dist/node/chunks/node.js:20671:26)
+9:27:20 pm [vite] (client) Pre-transform error: Failed to resolve import "./responsive-doodles.css" from "src/main.jsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: C:/Users/muthu/Downloads/MOCK/src/main.jsx:8:7
+  6  |  import "./content-update.css";
+  7  |  import "./card-opening.css";
+  8  |  import "./responsive-doodles.css";
+     |          ^
+  9  |  var _jsxFileName = "C:/Users/muthu/Downloads/MOCK/src/main.jsx";
+  10 |  import { jsxDEV as _jsxDEV } from "react/jsx-dev-runtime";
+9:31:47 pm [vite] Internal server error: Failed to resolve import "./royal-door-music.css" from "src/main.jsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: C:/Users/muthu/Downloads/MOCK/src/main.jsx:10:7
+  8  |  import "./responsive-doodles.css";
+  9  |  import "./hero-frame-fix.css";
+  10 |  import "./royal-door-music.css";
+     |          ^
+  11 |  var _jsxFileName = "C:/Users/muthu/Downloads/MOCK/src/main.jsx";
+  12 |  import { jsxDEV as _jsxDEV } from "react/jsx-dev-runtime";
+      at TransformPluginContext._formatLog (file:///C:/Users/muthu/Downloads/MOCK/node_modules/.pnpm/vite@8.2.2/node_modules/vite/dist/node/chunks/node.js:31147:39)
+      at TransformPluginContext.error (file:///C:/Users/muthu/Downloads/MOCK/node_modules/.pnpm/vite@8.2.2/node_modules/vite/dist/node/chunks/node.js:31144:14)
+      at normalizeUrl (file:///C:/Users/muthu/Downloads/MOCK/node_modules/.pnpm/vite@8.2.2/node_modules/vite/dist/node/chunks/node.js:28083:18)
+      at async file:///C:/Users/muthu/Downloads/MOCK/node_modules/.pnpm/vite@8.2.2/node_modules/vite/dist/node/chunks/node.js:28153:30
+      at async Promise.all (index 9)
+      at async TransformPluginContext.transform (file:///C:/Users/muthu/Downloads/MOCK/node_modules/.pnpm/vite@8.2.2/node_modules/vite/dist/node/chunks/node.js:28119:4)
+      at async EnvironmentPluginContainer.transform (file:///C:/Users/muthu/Downloads/MOCK/node_modules/.pnpm/vite@8.2.2/node_modules/vite/dist/node/chunks/node.js:30932:14)
+      at async loadAndTransform (file:///C:/Users/muthu/Downloads/MOCK/node_modules/.pnpm/vite@8.2.2/node_modules/vite/dist/node/chunks/node.js:20671:26)
+9:31:47 pm [vite] (client) Pre-transform error: Failed to resolve import "./royal-door-music.css" from "src/main.jsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: C:/Users/muthu/Downloads/MOCK/src/main.jsx:10:7
+  8  |  import "./responsive-doodles.css";
+  9  |  import "./hero-frame-fix.css";
+  10 |  import "./royal-door-music.css";
+     |          ^
+  11 |  var _jsxFileName = "C:/Users/muthu/Downloads/MOCK/src/main.jsx";
+  12 |  import { jsxDEV as _jsxDEV } from "react/jsx-dev-runtime";
+9:36:46 pm [vite] Internal server error: Failed to resolve import "./antique-doodles.css" from "src/main.jsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: C:/Users/muthu/Downloads/MOCK/src/main.jsx:13:7
+  11 |  import "./antique-burgundy-door.css";
+  12 |  import "./door-reveal-fix.css";
+  13 |  import "./antique-doodles.css";
+     |          ^
+  14 |  var _jsxFileName = "C:/Users/muthu/Downloads/MOCK/src/main.jsx";
+  15 |  import { jsxDEV as _jsxDEV } from "react/jsx-dev-runtime";
+      at TransformPluginContext._formatLog (file:///C:/Users/muthu/Downloads/MOCK/node_modules/.pnpm/vite@8.2.2/node_modules/vite/dist/node/chunks/node.js:31147:39)
+      at TransformPluginContext.error (file:///C:/Users/muthu/Downloads/MOCK/node_modules/.pnpm/vite@8.2.2/node_modules/vite/dist/node/chunks/node.js:31144:14)
+      at normalizeUrl (file:///C:/Users/muthu/Downloads/MOCK/node_modules/.pnpm/vite@8.2.2/node_modules/vite/dist/node/chunks/node.js:28083:18)
+      at async file:///C:/Users/muthu/Downloads/MOCK/node_modules/.pnpm/vite@8.2.2/node_modules/vite/dist/node/chunks/node.js:28153:30
+      at async Promise.all (index 12)
+      at async TransformPluginContext.transform (file:///C:/Users/muthu/Downloads/MOCK/node_modules/.pnpm/vite@8.2.2/node_modules/vite/dist/node/chunks/node.js:28119:4)
+      at async EnvironmentPluginContainer.transform (file:///C:/Users/muthu/Downloads/MOCK/node_modules/.pnpm/vite@8.2.2/node_modules/vite/dist/node/chunks/node.js:30932:14)
+      at async loadAndTransform (file:///C:/Users/muthu/Downloads/MOCK/node_modules/.pnpm/vite@8.2.2/node_modules/vite/dist/node/chunks/node.js:20671:26)
+9:36:46 pm [vite] (client) Pre-transform error: Failed to resolve import "./antique-doodles.css" from "src/main.jsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: C:/Users/muthu/Downloads/MOCK/src/main.jsx:13:7
+  11 |  import "./antique-burgundy-door.css";
+  12 |  import "./door-reveal-fix.css";
+  13 |  import "./antique-doodles.css";
+     |          ^
+  14 |  var _jsxFileName = "C:/Users/muthu/Downloads/MOCK/src/main.jsx";
+  15 |  import { jsxDEV as _jsxDEV } from "react/jsx-dev-runtime";
+9:39:19 pm [vite] Internal server error: Failed to resolve import "./south-indian-doodles.css" from "src/main.jsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: C:/Users/muthu/Downloads/MOCK/src/main.jsx:15:7
+  13 |  import "./antique-doodles.css";
+  14 |  import "./music-control.css";
+  15 |  import "./south-indian-doodles.css";
+     |          ^
+  16 |  var _jsxFileName = "C:/Users/muthu/Downloads/MOCK/src/main.jsx";
+  17 |  import { jsxDEV as _jsxDEV } from "react/jsx-dev-runtime";
+      at TransformPluginContext._formatLog (file:///C:/Users/muthu/Downloads/MOCK/node_modules/.pnpm/vite@8.2.2/node_modules/vite/dist/node/chunks/node.js:31147:39)
+      at TransformPluginContext.error (file:///C:/Users/muthu/Downloads/MOCK/node_modules/.pnpm/vite@8.2.2/node_modules/vite/dist/node/chunks/node.js:31144:14)
+      at normalizeUrl (file:///C:/Users/muthu/Downloads/MOCK/node_modules/.pnpm/vite@8.2.2/node_modules/vite/dist/node/chunks/node.js:28083:18)
+      at async file:///C:/Users/muthu/Downloads/MOCK/node_modules/.pnpm/vite@8.2.2/node_modules/vite/dist/node/chunks/node.js:28153:30
+      at async Promise.all (index 14)
+      at async TransformPluginContext.transform (file:///C:/Users/muthu/Downloads/MOCK/node_modules/.pnpm/vite@8.2.2/node_modules/vite/dist/node/chunks/node.js:28119:4)
+      at async EnvironmentPluginContainer.transform (file:///C:/Users/muthu/Downloads/MOCK/node_modules/.pnpm/vite@8.2.2/node_modules/vite/dist/node/chunks/node.js:30932:14)
+      at async loadAndTransform (file:///C:/Users/muthu/Downloads/MOCK/node_modules/.pnpm/vite@8.2.2/node_modules/vite/dist/node/chunks/node.js:20671:26)
+9:39:19 pm [vite] (client) Pre-transform error: Failed to resolve import "./south-indian-doodles.css" from "src/main.jsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: C:/Users/muthu/Downloads/MOCK/src/main.jsx:15:7
+  13 |  import "./antique-doodles.css";
+  14 |  import "./music-control.css";
+  15 |  import "./south-indian-doodles.css";
+     |          ^
+  16 |  var _jsxFileName = "C:/Users/muthu/Downloads/MOCK/src/main.jsx";
+  17 |  import { jsxDEV as _jsxDEV } from "react/jsx-dev-runtime";
+9:39:41 pm [vite] Internal server error: Failed to resolve import "./south-indian-doodles.css" from "src/main.jsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: C:/Users/muthu/Downloads/MOCK/src/main.jsx:15:7
+  13 |  import "./antique-doodles.css";
+  14 |  import "./music-control.css";
+  15 |  import "./south-indian-doodles.css";
+     |          ^
+  16 |  var _jsxFileName = "C:/Users/muthu/Downloads/MOCK/src/main.jsx";
+  17 |  import { jsxDEV as _jsxDEV } from "react/jsx-dev-runtime";
+      at TransformPluginContext._formatLog (file:///C:/Users/muthu/Downloads/MOCK/node_modules/.pnpm/vite@8.2.2/node_modules/vite/dist/node/chunks/node.js:31147:39)
+      at TransformPluginContext.error (file:///C:/Users/muthu/Downloads/MOCK/node_modules/.pnpm/vite@8.2.2/node_modules/vite/dist/node/chunks/node.js:31144:14)
+      at normalizeUrl (file:///C:/Users/muthu/Downloads/MOCK/node_modules/.pnpm/vite@8.2.2/node_modules/vite/dist/node/chunks/node.js:28083:18)
+      at async file:///C:/Users/muthu/Downloads/MOCK/node_modules/.pnpm/vite@8.2.2/node_modules/vite/dist/node/chunks/node.js:28153:30
+      at async Promise.all (index 14)
+      at async TransformPluginContext.transform (file:///C:/Users/muthu/Downloads/MOCK/node_modules/.pnpm/vite@8.2.2/node_modules/vite/dist/node/chunks/node.js:28119:4)
+      at async EnvironmentPluginContainer.transform (file:///C:/Users/muthu/Downloads/MOCK/node_modules/.pnpm/vite@8.2.2/node_modules/vite/dist/node/chunks/node.js:30932:14)
+      at async loadAndTransform (file:///C:/Users/muthu/Downloads/MOCK/node_modules/.pnpm/vite@8.2.2/node_modules/vite/dist/node/chunks/node.js:20671:26)
+9:39:41 pm [vite] (client) Pre-transform error: Failed to resolve import "./south-indian-doodles.css" from "src/main.jsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: C:/Users/muthu/Downloads/MOCK/src/main.jsx:15:7
+  13 |  import "./antique-doodles.css";
+  14 |  import "./music-control.css";
+  15 |  import "./south-indian-doodles.css";
+     |          ^
+  16 |  var _jsxFileName = "C:/Users/muthu/Downloads/MOCK/src/main.jsx";
+  17 |  import { jsxDEV as _jsxDEV } from "react/jsx-dev-runtime";
+9:45:21 pm [vite] Internal server error: Failed to resolve import "./door-doodle-border.css" from "src/main.jsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: C:/Users/muthu/Downloads/MOCK/src/main.jsx:17:7
+  15 |  import "./south-indian-doodles.css";
+  16 |  import "./floral-celebration.css";
+  17 |  import "./door-doodle-border.css";
+     |          ^
+  18 |  var _jsxFileName = "C:/Users/muthu/Downloads/MOCK/src/main.jsx";
+  19 |  import { jsxDEV as _jsxDEV } from "react/jsx-dev-runtime";
+      at TransformPluginContext._formatLog (file:///C:/Users/muthu/Downloads/MOCK/node_modules/.pnpm/vite@8.2.2/node_modules/vite/dist/node/chunks/node.js:31147:39)
+      at TransformPluginContext.error (file:///C:/Users/muthu/Downloads/MOCK/node_modules/.pnpm/vite@8.2.2/node_modules/vite/dist/node/chunks/node.js:31144:14)
+      at normalizeUrl (file:///C:/Users/muthu/Downloads/MOCK/node_modules/.pnpm/vite@8.2.2/node_modules/vite/dist/node/chunks/node.js:28083:18)
+      at async file:///C:/Users/muthu/Downloads/MOCK/node_modules/.pnpm/vite@8.2.2/node_modules/vite/dist/node/chunks/node.js:28153:30
+      at async Promise.all (index 16)
+      at async TransformPluginContext.transform (file:///C:/Users/muthu/Downloads/MOCK/node_modules/.pnpm/vite@8.2.2/node_modules/vite/dist/node/chunks/node.js:28119:4)
+      at async EnvironmentPluginContainer.transform (file:///C:/Users/muthu/Downloads/MOCK/node_modules/.pnpm/vite@8.2.2/node_modules/vite/dist/node/chunks/node.js:30932:14)
+      at async loadAndTransform (file:///C:/Users/muthu/Downloads/MOCK/node_modules/.pnpm/vite@8.2.2/node_modules/vite/dist/node/chunks/node.js:20671:26)
+9:45:21 pm [vite] (client) Pre-transform error: Failed to resolve import "./door-doodle-border.css" from "src/main.jsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: C:/Users/muthu/Downloads/MOCK/src/main.jsx:17:7
+  15 |  import "./south-indian-doodles.css";
+  16 |  import "./floral-celebration.css";
+  17 |  import "./door-doodle-border.css";
+     |          ^
+  18 |  var _jsxFileName = "C:/Users/muthu/Downloads/MOCK/src/main.jsx";
+  19 |  import { jsxDEV as _jsxDEV } from "react/jsx-dev-runtime";
+10:10:08 pm [vite] (client) Pre-transform error: Failed to resolve import "./doodle-hover-reverse.css" from "src/main.jsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: C:/Users/muthu/Downloads/MOCK/src/main.jsx:22:7
+  20 |  import "./always-sway.css";
+  21 |  import "./hero-image-cleanup.css";
+  22 |  import "./doodle-hover-reverse.css";
+     |          ^
+  23 |  var _jsxFileName = "C:/Users/muthu/Downloads/MOCK/src/main.jsx";
+  24 |  import { jsxDEV as _jsxDEV } from "react/jsx-dev-runtime";
+10:10:09 pm [vite] Internal server error: Failed to resolve import "./doodle-hover-reverse.css" from "src/main.jsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: C:/Users/muthu/Downloads/MOCK/src/main.jsx:22:7
+  20 |  import "./always-sway.css";
+  21 |  import "./hero-image-cleanup.css";
+  22 |  import "./doodle-hover-reverse.css";
+     |          ^
+  23 |  var _jsxFileName = "C:/Users/muthu/Downloads/MOCK/src/main.jsx";
+  24 |  import { jsxDEV as _jsxDEV } from "react/jsx-dev-runtime";
+      at TransformPluginContext._formatLog (file:///C:/Users/muthu/Downloads/MOCK/node_modules/.pnpm/vite@8.2.2/node_modules/vite/dist/node/chunks/node.js:31147:39)
+      at TransformPluginContext.error (file:///C:/Users/muthu/Downloads/MOCK/node_modules/.pnpm/vite@8.2.2/node_modules/vite/dist/node/chunks/node.js:31144:14)
+      at normalizeUrl (file:///C:/Users/muthu/Downloads/MOCK/node_modules/.pnpm/vite@8.2.2/node_modules/vite/dist/node/chunks/node.js:28083:18)
+      at async file:///C:/Users/muthu/Downloads/MOCK/node_modules/.pnpm/vite@8.2.2/node_modules/vite/dist/node/chunks/node.js:28153:30
+      at async Promise.all (index 21)
+      at async TransformPluginContext.transform (file:///C:/Users/muthu/Downloads/MOCK/node_modules/.pnpm/vite@8.2.2/node_modules/vite/dist/node/chunks/node.js:28119:4)
+      at async EnvironmentPluginContainer.transform (file:///C:/Users/muthu/Downloads/MOCK/node_modules/.pnpm/vite@8.2.2/node_modules/vite/dist/node/chunks/node.js:30932:14)
+      at async loadAndTransform (file:///C:/Users/muthu/Downloads/MOCK/node_modules/.pnpm/vite@8.2.2/node_modules/vite/dist/node/chunks/node.js:20671:26)
+      at async viteTransformMiddleware (file:///C:/Users/muthu/Downloads/MOCK/node_modules/.pnpm/vite@8.2.2/node_modules/vite/dist/node/chunks/node.js:25205:20)
+10:18:55 pm [vite] (client) Pre-transform error: Failed to resolve import "./site-footer.css" from "src/main.jsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: C:/Users/muthu/Downloads/MOCK/src/main.jsx:24:7
+  22 |  import "./doodle-hover-reverse.css";
+  23 |  import "./celebration-burst.css";
+  24 |  import "./site-footer.css";
+     |          ^
+  25 |  var _jsxFileName = "C:/Users/muthu/Downloads/MOCK/src/main.jsx";
+  26 |  import { jsxDEV as _jsxDEV } from "react/jsx-dev-runtime";
+10:18:55 pm [vite] Internal server error: Failed to resolve import "./site-footer.css" from "src/main.jsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: C:/Users/muthu/Downloads/MOCK/src/main.jsx:24:7
+  22 |  import "./doodle-hover-reverse.css";
+  23 |  import "./celebration-burst.css";
+  24 |  import "./site-footer.css";
+     |          ^
+  25 |  var _jsxFileName = "C:/Users/muthu/Downloads/MOCK/src/main.jsx";
+  26 |  import { jsxDEV as _jsxDEV } from "react/jsx-dev-runtime";
+      at TransformPluginContext._formatLog (file:///C:/Users/muthu/Downloads/MOCK/node_modules/.pnpm/vite@8.2.2/node_modules/vite/dist/node/chunks/node.js:31147:39)
+      at TransformPluginContext.error (file:///C:/Users/muthu/Downloads/MOCK/node_modules/.pnpm/vite@8.2.2/node_modules/vite/dist/node/chunks/node.js:31144:14)
+      at normalizeUrl (file:///C:/Users/muthu/Downloads/MOCK/node_modules/.pnpm/vite@8.2.2/node_modules/vite/dist/node/chunks/node.js:28083:18)
+      at async file:///C:/Users/muthu/Downloads/MOCK/node_modules/.pnpm/vite@8.2.2/node_modules/vite/dist/node/chunks/node.js:28153:30
+      at async Promise.all (index 23)
+      at async TransformPluginContext.transform (file:///C:/Users/muthu/Downloads/MOCK/node_modules/.pnpm/vite@8.2.2/node_modules/vite/dist/node/chunks/node.js:28119:4)
+      at async EnvironmentPluginContainer.transform (file:///C:/Users/muthu/Downloads/MOCK/node_modules/.pnpm/vite@8.2.2/node_modules/vite/dist/node/chunks/node.js:30932:14)
+      at async loadAndTransform (file:///C:/Users/muthu/Downloads/MOCK/node_modules/.pnpm/vite@8.2.2/node_modules/vite/dist/node/chunks/node.js:20671:26)
+      at async viteTransformMiddleware (file:///C:/Users/muthu/Downloads/MOCK/node_modules/.pnpm/vite@8.2.2/node_modules/vite/dist/node/chunks/node.js:25205:20)

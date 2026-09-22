@@ -1,0 +1,14 @@
+/* Let each flower respond directly to the pointer without blocking the page. */
+.floating-doodles span {
+  pointer-events: auto;
+}
+
+/* A quick reverse flourish makes the hovered bloom feel playful and distinct. */
+.floating-doodles span:hover {
+  animation: doodle-hover-reverse 0.52s ease-in-out infinite alternate !important;
+}
+
+@keyframes doodle-hover-reverse {
+  from { transform: translateX(25px) rotate(13deg); }
+  to { transform: translateX(-25px) rotate(-13deg); }
+}

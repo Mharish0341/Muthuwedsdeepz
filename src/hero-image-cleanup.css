@@ -1,0 +1,6 @@
+/* The couple artwork has a real alpha channel, so the hero colour is visible naturally. */
+.couple { mix-blend-mode: normal; }
+/* A lively but still graceful floral sway. */
+.floating-doodles span { animation-duration:2.7s!important; }
+.floating-doodles span:nth-child(even){animation-duration:3.25s!important}.floating-doodles span:nth-child(3n){animation-duration:3.7s!important}
+@media(max-width:780px){.floating-doodles span{animation-duration:3.1s!important}.floating-doodles span:nth-child(even){animation-duration:3.6s!important}}

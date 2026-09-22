@@ -1,0 +1,7 @@
+/* Reveal the live invitation behind the doors throughout their opening motion. */
+.card-opening { transition: background .18s ease, visibility 0s 1.5s; }
+.card-opening:before { transition: opacity .35s ease; }
+.invitation-opened .card-opening { background: transparent; visibility: hidden; }
+.invitation-opened .card-opening:before { opacity: 0; }
+.invitation-opened .curtain { transition-duration: 1.5s; }
+@media (prefers-reduced-motion: reduce) { .card-opening { transition: none; } }

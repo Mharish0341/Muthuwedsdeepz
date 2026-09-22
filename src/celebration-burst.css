@@ -1,0 +1,17 @@
+.celebration-burst { position:fixed; inset:0; z-index:60; pointer-events:none; overflow:hidden; }
+.sky-firework { position:absolute; top:16%; width:10px; height:10px; border-radius:50%; background:#ffe9a9; box-shadow:0 0 18px #f6bc54; animation:firework-core 1.6s ease-out forwards; }
+.firework-left { left:20%; }.firework-right { left:78%; animation-delay:.16s; }
+.sky-firework::after { content:''; position:absolute; inset:-82px; background:repeating-conic-gradient(from 8deg, #f7c55c 0deg 2.5deg, transparent 2.5deg 24deg, #d9839a 24deg 27deg, transparent 27deg 48deg); -webkit-mask:radial-gradient(circle, transparent 0 16%, #000 18% 66%, transparent 69%); mask:radial-gradient(circle, transparent 0 16%, #000 18% 66%, transparent 69%); animation:firework-halo 1.8s ease-out forwards; }
+.sky-firework i { position:absolute; left:2px; top:2px; width:7px; height:7px; border-radius:50%; color:var(--spark,#f7c55c); background:currentColor; box-shadow:0 0 12px currentColor; --angle:calc(var(--i) * 27.69deg); animation:firework-spark 2.05s cubic-bezier(.12,.67,.27,1) forwards; animation-delay:inherit; }
+.sky-firework i:nth-child(3n) { --spark:#f8e6c3; }.sky-firework i:nth-child(3n + 1) { --spark:#d47a90; }.sky-firework i:nth-child(4n) { --spark:#ffd86f; }
+.party-popper { position:absolute; bottom:7%; width:0; height:0; border-left:15px solid transparent; border-right:15px solid transparent; border-top:44px solid #bd6a7b; filter:drop-shadow(0 3px 2px rgba(48,3,18,.28)); transform:rotate(-32deg); animation:popper-rise .75s ease-out forwards; }
+.popper-left { left:9%; }.popper-right { right:9%; transform:rotate(32deg) scaleX(-1); animation-delay:.1s; }
+.party-popper b { position:absolute; left:-2px; top:-34px; width:5px; height:11px; border-radius:4px; background:#f3c462; --angle:calc(var(--i) * 18deg - 150deg); animation:confetti 2.15s cubic-bezier(.08,.65,.25,1) forwards; }
+.party-popper b:nth-child(3n) { background:#f7e4bf; }.party-popper b:nth-child(3n + 1) { background:#d9839a; }
+@keyframes firework-core { 0%{transform:scale(0);opacity:0} 22%{transform:scale(1);opacity:1} 100%{transform:scale(.35);opacity:0} }
+@keyframes firework-halo { 0%,12%{scale:.08;opacity:0} 30%{scale:1;opacity:1} 100%{scale:1.18;opacity:0} }
+@keyframes firework-spark { from{transform:rotate(var(--angle)) translateY(0) scale(1);opacity:1} to{transform:rotate(var(--angle)) translateY(-145px) scale(.15);opacity:0} }
+@keyframes popper-rise { from{opacity:0; translate:0 70px} to{opacity:1;translate:0 0} }
+@keyframes confetti { from{transform:rotate(var(--angle)) translateY(0) rotate(0deg);opacity:1} to{transform:rotate(var(--angle)) translateY(-160px) rotate(400deg);opacity:0} }
+@media(max-width:780px){.sky-firework{top:13%}.firework-left{left:15%}.firework-right{left:80%}.party-popper{bottom:13%;scale:.75}}
+@media(prefers-reduced-motion:reduce){.celebration-burst{display:none}}

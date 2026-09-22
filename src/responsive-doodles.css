@@ -1,0 +1,38 @@
+.floating-doodles { position: fixed; inset: 0; pointer-events: none; z-index: 4; overflow: hidden; }
+.floating-doodles span { position: absolute; color: #d8a94d; opacity: .48; text-shadow: 0 2px 8px rgba(52,3,20,.25); animation: doodle-drift 8s ease-in-out infinite alternate; }
+.floating-doodles span:nth-child(1) { left: 4vw; top: 24vh; font-size: 24px; animation-delay: -1s; }
+.floating-doodles span:nth-child(2) { right: 5vw; top: 31vh; font-size: 18px; animation-delay: -4s; }
+.floating-doodles span:nth-child(3) { left: 7vw; bottom: 13vh; font-size: 32px; animation-delay: -2s; }
+.floating-doodles span:nth-child(4) { right: 8vw; bottom: 22vh; font-size: 15px; animation-delay: -5s; }
+.floating-doodles span:nth-child(5) { left: 50%; top: 10vh; color: #e2bd77; font-size: 18px; animation-delay: -3s; }
+.floating-doodles span:nth-child(6) { left: 58%; bottom: 10vh; font-size: 21px; animation-delay: -6s; }
+@keyframes doodle-drift { from { transform: translate3d(0,0,0) rotate(0deg) scale(.85); } to { transform: translate3d(16px,-34px,0) rotate(20deg) scale(1.15); } }
+.hero:after { content:''; position:absolute; z-index:0; left:0; right:0; bottom:0; height:145px; pointer-events:none; background:linear-gradient(transparent,rgba(30,2,12,.46)); }
+.hero-copy,.couple-frame,.hero-footer,nav { z-index: 1; }
+@media (max-width: 780px) {
+  .floating-doodles span:nth-child(3),.floating-doodles span:nth-child(6) { display:none; }
+  .hero { min-height: 100svh; }
+  .hero-copy { top: 35%; max-width: 235px; }
+  .hero-copy .invite-line { font-size: 8px; letter-spacing: 1.8px; }
+  .hero-copy .names { font-size: clamp(54px,16vw,70px); }
+  .hero-copy .outline-button { padding: 11px 14px; font-size: 9px; }
+  .hero-footer { bottom: 13px; }
+  .event-info { gap: 7px; }
+  .event-info span { align-items:flex-start; }
+  .welcome-copy-only { min-height: 410px; padding-block: 70px; }
+  .venue-card h3,.qr-card h3 { font-size: 38px; }
+  .qr-wrap { width: 154px; height:154px; }
+  .closing-note h2 { font-size: 43px; }
+}
+@media (max-width: 390px) {
+  .monogram { font-size:25px; }
+  .sound { width:33px; height:33px; }
+  .hero-copy { left:22px; top:34%; }
+  .couple-frame { width:125vw; right:-47vw; height:58%; }
+  .family-grid h3 { font-size:32px; }
+  .family-grid p { font-size:15px; }
+  .event { padding:22px 0; }
+  .event-title h3 { font-size:31px; }
+  .event-info { font-size:13px; }
+}
+@media (prefers-reduced-motion:reduce) { .floating-doodles span { animation:none; } }

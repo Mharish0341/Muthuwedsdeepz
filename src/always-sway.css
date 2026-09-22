@@ -1,0 +1,6 @@
+/* Explicit page-wide floral sway: avoids any state-dependent animation ambiguity. */
+.floating-doodles span { will-change:transform; pointer-events:none; animation:floral-sway 4.8s ease-in-out infinite alternate !important; }
+.floating-doodles span:nth-child(even) { animation-direction:alternate-reverse !important; animation-duration:5.7s !important; }
+.floating-doodles span:nth-child(3n) { animation-duration:6.4s !important; }
+@keyframes floral-sway { from { transform:translateX(-50px) rotate(-10deg); } to { transform:translateX(50px) rotate(10deg); } }
+@media(max-width:780px){@keyframes floral-sway{from{transform:translateX(-28px) rotate(-8deg)}to{transform:translateX(28px) rotate(8deg)}}}

@@ -1,0 +1,13 @@
+/* Keep invitation content accessible even before the viewport observer runs. */
+.reveal {
+  opacity: 1;
+  transform: none;
+  animation: invitation-rise .8s ease both;
+}
+@keyframes invitation-rise {
+  from { opacity: 0; transform: translateY(24px); }
+  to { opacity: 1; transform: none; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .reveal { animation: none; }
+}

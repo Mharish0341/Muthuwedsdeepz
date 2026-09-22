@@ -1,0 +1,50 @@
+/* Mobile hero: reserve the top for the invitation copy and the lower half for the portrait. */
+@media (max-width: 780px) {
+  .hero {
+    min-height: 700px;
+    height: 100svh;
+    max-height: 820px;
+  }
+
+  .hero nav { height: 66px; padding-inline: 22px; }
+
+  .hero-copy {
+    z-index: 2;
+    top: 15%;
+    left: clamp(22px, 7vw, 34px);
+    transform: none;
+    width: min(58vw, 250px);
+    max-width: none;
+  }
+
+  .hero-copy .invite-line { font-size: 7px; letter-spacing: 1.5px; margin-bottom: 6px; }
+  .hero-copy .names { font-size: clamp(50px, 14vw, 66px); line-height: .72; letter-spacing: -2.5px; margin: 19px 0 13px; }
+  .hero-copy .names .ampersand { align-self: center; margin: 7px 0 2px; }
+  .hero-copy .ornament { max-width: 145px; margin: 10px 0; }
+  .hero-copy .date { font-size: 14px; letter-spacing: 2.8px; margin: 12px 0 17px; }
+  .hero-copy .date i { font-size: 9px; }
+  .hero-copy .outline-button { padding: 10px 12px; gap: 8px; font-size: 8px; }
+
+  .couple-frame {
+    z-index: 1;
+    width: 100vw;
+    height: 48%;
+    right: 0;
+    bottom: 34px;
+    opacity: .96;
+  }
+
+  .couple { width: 90%; height: auto; max-width: 90%; }
+  .couple-frame::before { bottom: 7px; }
+  .hero-footer { z-index: 3; bottom: 12px; left: 22px; right: 22px; font-size: 7px; letter-spacing: 1.2px; }
+  .hero-pattern { font-size: 235px; opacity: .35; }
+  .pattern-left { left: -72px; top: 56px; }
+  .pattern-right { right: -88px; top: 18px; }
+}
+
+@media (max-width: 390px) {
+  .hero { min-height: 670px; }
+  .hero-copy { top: 14%; width: 61vw; }
+  .hero-copy .names { font-size: clamp(48px, 14vw, 58px); }
+  .couple-frame { width: 100vw; right: 0; height: 48%; bottom: 32px; }
+}
